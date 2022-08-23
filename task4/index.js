@@ -1,5 +1,4 @@
 function min(i, j) {
-  if (i < j) return i;
-  else return j;
+  return i < j ? i : j;
 }
-console.log(min(0, 10));
+console.log(min(3, 10));
